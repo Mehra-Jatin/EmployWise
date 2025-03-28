@@ -1,12 +1,53 @@
-# React + Vite
+# Employ Wise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Link:** [Employ Wise](https://employ-wise-black.vercel.app/)
 
-Currently, two official plugins are available:
+## Overview
+Employ Wise is a web-based application that fetches and displays a list of users from an API. Users can search, edit, and delete records while maintaining authentication via token storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetch and display users from an external API
+- Search users by name
+- Edit user details (the user data for update is sent )
+- Delete users
+- Token-based authentication
+- Pagination support
 
-## Expanding the ESLint configuration
+## Installation & Setup
+### 1. Clone the Repository
+```sh
+git clone https://github.com/your-repo/employ-wise.git
+cd employ-wise
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Install Dependencies
+```sh
+npm install
+```
+
+### 3. Start the Development Server
+```sh
+npm start
+```
+This will launch the application at `http://localhost:3000/`.
+
+## Assumptions & Considerations
+- The project uses the `reqres.in` API as a placeholder for user data.
+- Authentication is handled via local storage tokens.
+- Search functionality filters users dynamically from the fetched list.
+- Pagination is implemented but works based on the API's pagination structure.
+
+## Technologies Used
+- React.js
+- Axios
+- React Router
+- Tailwind CSS (for styling)
+- Toastify (for notifications)
+
+## Deployment
+The project is deployed on **Vercel**. Any updates pushed to the repository will trigger an automatic deployment.
+
+---
+### Author
+**Jatin Mehra**
+
