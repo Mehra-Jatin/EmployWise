@@ -16,8 +16,8 @@ Employ Wise is a web-based application that fetches and displays a list of users
 ## Installation & Setup
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-repo/employ-wise.git
-cd employ-wise
+git clone https://github.com/your-repo/EmployWise.git
+cd EmployWise.git
 ```
 
 ### 2. Install Dependencies
